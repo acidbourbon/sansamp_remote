@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = So 08 Jun 2014 14:17:59 CEST
+
+BeginCmp
+TimeStamp = /50C37C76;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539450F2;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945133;
+Reference = C3;
+ValeurCmp = 10u;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C3822B;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182A7DB;
+Reference = C5;
+ValeurCmp = 10u;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539452FF;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945352;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394535A;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C37D07;
+Reference = F1;
+ValeurCmp = reso12MHz;
+IdModule  = smd_reso;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C3705D;
+Reference = IC1;
+ValeurCmp = ATMEGA8-AI;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945080;
+Reference = K1;
+ValeurCmp = vin;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /525872D9;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C37D87;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52586D9F;
+Reference = P5;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945322;
+Reference = R1;
+ValeurCmp = 470;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945351;
+Reference = R2;
+ValeurCmp = 470;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394535B;
+Reference = R3;
+ValeurCmp = 470;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539452D0;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = KSA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945353;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = KSA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945359;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = KSA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945052;
+Reference = U1;
+ValeurCmp = LP2985LV;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C370A2;
+Reference = U2;
+ValeurCmp = RFM70;
+IdModule  = RFM70;
+EndCmp
+
+EndListe

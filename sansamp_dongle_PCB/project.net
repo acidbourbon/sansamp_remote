@@ -1,0 +1,270 @@
+# EESchema Netlist Version 1.1 created  Sat 12 Oct 2013 12:45:51 AM CEST
+(
+ ( /525872D9 $noname  P1 CONN_6 {Lib=CONN_6}
+  (    1 /pc0 )
+  (    2 /pc1 )
+  (    3 /pc2 )
+  (    4 /pc3 )
+  (    5 /pc4 )
+  (    6 /pc5 )
+ )
+ ( /52586D9F $noname  P5 CONN_6 {Lib=CONN_6}
+  (    1 /vcc )
+  (    2 /sck )
+  (    3 /rst )
+  (    4 /miso )
+  (    5 /mosi )
+  (    6 /gnd )
+ )
+ ( /5182A7DB $noname  C5 10u {Lib=C}
+  (    1 /vcc )
+  (    2 /gnd )
+ )
+ ( /5182A7BC $noname  U3 78L05_SO8 {Lib=78L05_SO8}
+  (    1 /vcc )
+  (    2 /gnd )
+  (    3 /gnd )
+  (    4 ? )
+  (    5 ? )
+  (    6 /gnd )
+  (    7 /gnd )
+  (    8 /vin )
+ )
+ ( /50C3823D $noname  C3 10u {Lib=C}
+  (    1 /vcc33 )
+  (    2 /gnd )
+ )
+ ( /50C3822B $noname  C4 100n {Lib=C}
+  (    1 /vcc )
+  (    2 /gnd )
+ )
+ ( /50C37D87 $noname  P2 CONN_8 {Lib=CONN_8}
+  (    1 /pd0_rx )
+  (    2 /pd1_tx )
+  (    3 /pd2 )
+  (    4 /pd3 )
+  (    5 /pd4 )
+  (    6 /pd5 )
+  (    7 /pd6 )
+  (    8 /pd7 )
+ )
+ ( /50C37D07 $noname  F1 CERAMIC_FILTER {Lib=CERAMIC_FILTER}
+  (    1 N-000005 )
+  (    2 /gnd )
+  (    3 N-000006 )
+ )
+ ( /50C37C76 $noname  C1 100n {Lib=C}
+  (    1 /gnd )
+  (    2 N-000008 )
+ )
+ ( /50C37C06 $noname  C2 10u {Lib=C}
+  (    1 /vin )
+  (    2 /gnd )
+ )
+ ( /50C37BDC $noname  P6 CONN_2 {Lib=CONN_2}
+  (    1 /vin )
+  (    2 /gnd )
+ )
+ ( /50C373DD $noname  U1 78L33_SO8 {Lib=78L33_SO8}
+  (    1 /vcc33 )
+  (    2 /gnd )
+  (    3 /gnd )
+  (    4 ? )
+  (    5 ? )
+  (    6 /gnd )
+  (    7 /gnd )
+  (    8 /vcc )
+ )
+ ( /50C370A2 $noname  U2 RFM70 {Lib=RFM70}
+  (   CE /ce )
+  (  CSN /csn )
+  (  GND /gnd )
+  (  IRQ /irq )
+  ( MISO /miso )
+  ( MOSI /mosi )
+  (  SCK /sck )
+  (  VDD /vcc33 )
+ )
+ ( /50C3705D TQFP32  IC1 ATMEGA8-AI {Lib=ATMEGA8-AI}
+  (    1 /pd3 )
+  (    2 /pd4 )
+  (    3 /gnd )
+  (    4 /vcc )
+  (    5 /gnd )
+  (    6 /vcc )
+  (    7 N-000005 )
+  (    8 N-000006 )
+  (    9 /pd5 )
+  (   10 /pd6 )
+  (   11 /pd7 )
+  (   12 /irq )
+  (   13 /ce )
+  (   14 /csn )
+  (   15 /mosi )
+  (   16 /miso )
+  (   17 /sck )
+  (   18 /vcc )
+  (   19 ? )
+  (   20 N-000008 )
+  (   21 /gnd )
+  (   22 ? )
+  (   23 /pc0 )
+  (   24 /pc1 )
+  (   25 /pc2 )
+  (   26 /pc3 )
+  (   27 /pc4 )
+  (   28 /pc5 )
+  (   29 /rst )
+  (   30 /pd0_rx )
+  (   31 /pd1_tx )
+  (   32 /pd2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component IC1
+ TQFP32
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/vcc33" "vcc33"
+ U1 1
+ U2 VDD
+ C3 1
+Net 4 "/gnd" "gnd"
+ C2 2
+ C3 2
+ P5 6
+ F1 2
+ P6 2
+ IC1 5
+ IC1 3
+ IC1 21
+ U2 GND
+ C4 2
+ U1 2
+ U1 3
+ U1 6
+ U1 7
+ U3 2
+ U3 3
+ U3 6
+ U3 7
+ C1 1
+ C5 2
+Net 5 "" ""
+ F1 1
+ IC1 7
+Net 6 "" ""
+ IC1 8
+ F1 3
+Net 7 "/vin" "vin"
+ P6 1
+ C2 1
+ U3 8
+Net 8 "" ""
+ IC1 20
+ C1 2
+Net 9 "/irq" "irq"
+ IC1 12
+ U2 IRQ
+Net 11 "/ce" "ce"
+ IC1 13
+ U2 CE
+Net 12 "/csn" "csn"
+ U2 CSN
+ IC1 14
+Net 13 "/mosi" "mosi"
+ IC1 15
+ P5 5
+ U2 MOSI
+Net 14 "/miso" "miso"
+ P5 4
+ U2 MISO
+ IC1 16
+Net 15 "/sck" "sck"
+ P5 2
+ IC1 17
+ U2 SCK
+Net 16 "/vcc" "vcc"
+ U1 8
+ U3 1
+ C5 1
+ P5 1
+ C4 1
+ IC1 18
+ IC1 4
+ IC1 6
+Net 18 "/rst" "rst"
+ IC1 29
+ P5 3
+Net 19 "/pd1_tx" "pd1_tx"
+ P2 2
+ IC1 31
+Net 20 "/pc4" "pc4"
+ P1 5
+ IC1 27
+Net 21 "/pc3" "pc3"
+ P1 4
+ IC1 26
+Net 22 "/pc2" "pc2"
+ IC1 25
+ P1 3
+Net 23 "/pc1" "pc1"
+ IC1 24
+ P1 2
+Net 24 "/pc0" "pc0"
+ IC1 23
+ P1 1
+Net 25 "/pd7" "pd7"
+ IC1 11
+ P2 8
+Net 26 "/pd6" "pd6"
+ IC1 10
+ P2 7
+Net 27 "/pd5" "pd5"
+ IC1 9
+ P2 6
+Net 28 "/pd4" "pd4"
+ IC1 2
+ P2 5
+Net 29 "/pd3" "pd3"
+ P2 4
+ IC1 1
+Net 30 "/pd2" "pd2"
+ P2 3
+ IC1 32
+Net 31 "/pd0_rx" "pd0_rx"
+ IC1 30
+ P2 1
+Net 34 "/pc5" "pc5"
+ P1 6
+ IC1 28
+}
+#End
